@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="ma4208db02@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="ma4208db02">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <table id="4" parent="2" name="t01_gakusei"/>
+    <column id="5" parent="4" name="GAKUSKI">
+      <Position>1</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="6" parent="4" name="KURASU">
+      <Position>2</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="7" parent="4" name="SHUSSEKI">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="8" parent="4" name="SHIMEI">
+      <Position>4</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="9" parent="4" name="NENREI">
+      <Position>5</Position>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+  </database-model>
+</dataSource>
